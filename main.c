@@ -136,11 +136,7 @@
     return 0;
 
 */
-//<<<<<<< HEAD
-//int main()
-//=======
 /*int main()
->>>>>>> Initial commit
 {
     int a,b;
     printf("请输入两个数：");
@@ -153,9 +149,6 @@
     a=a-b;
     printf("交换后a=%d,b=%d\n",a,b);
     return 0;
-<<<<<<< HEAD
-}
-=======
 }*/
 /*int main()
 {
@@ -302,4 +295,4 @@ int main()
     }
 
 return 0;
-}*/
+*/
