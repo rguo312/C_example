@@ -296,3 +296,137 @@ int main()
 
 return 0;
 */
+/*int main(void)
+{
+    char c;
+    printf("输入一个字符：");
+    scanf("%c",&c);
+
+    if((c>='a'&&c<='z')||(c>='A'&&c<='Z'))
+    {
+        printf("%c是字母",c);
+    }
+    else
+    {
+        printf("%c不是字母",c);
+    }
+}*/
+
+//int main()
+//{
+//    int num;
+//    printf("请输入一个自然数：");
+//    while (scanf("%d", &num) == 1)
+//    {
+//        printf("Sum = %d", (num + 1) * num / 2);
+//        break;
+//    }
+//    return 0;
+//}
+//自然数求和
+//sn=n*a1+[n*(n-1)]*d/2
+/*int main()
+{
+    int n,sum,i;
+
+    printf("请输入一个整数:");
+    scanf("%d",&n);
+    i=n*(n-1)/2;
+    sum=n+i;
+
+    printf("sum=%d",sum);
+
+    return 0;
+}
+*/
+//int main()
+//{
+//    int i,n,sum=0;
+//    printf("请输入一个整数：");
+//    scanf("%d",&n);
+//
+//    for(i=1;i<=n;++i)
+//    {
+//        sum += 1;
+//    }
+//    printf("Sum = %d",sum);
+//    return 0;
+//}
+
+/*int main()
+{
+    int n, i, sum = 0;
+
+    printf("输入一个正整数: ");
+    scanf("%d",&n);
+
+    for(i=1; i <= n; ++i)
+    {
+        sum += i;   // sum = sum+i;
+    }
+
+    printf("Sum = %d",sum);
+
+    return 0;
+}*/
+
+//int main()
+//{
+//    int n,i, sum=0;
+//
+//    printf("请输入一个正整数：");
+//    scanf("%d",&n);
+//
+//    for(i=1;i <= n; ++i)
+//    {
+//        sum=sum+i;
+//    }
+//    printf("sum=%d",sum);
+//    return 0;
+//
+//}
+//int main()
+//{
+//    int i,n,sum=0;
+//    printf("请输入一个正整数：");
+//    scanf("%d",&n);
+//
+//    i=1;
+//    while(i<=n)
+//    {
+//        sum+=i;
+//        ++i;
+//    }
+//    printf("sum=%d",sum);
+//    return 0;
+//}
+//int main()
+//{
+//    int i;
+//    printf("%d",i);//int i的初始值73502592，所以使用时应先初始化；
+//    return 0;
+//}
+/*int addnumbers(int n);
+
+int main()
+{
+    int num;
+    printf("输入一个整数：");
+    scanf("%d",&num);
+    printf("sum=%d", addnumbers(num));
+    return 0;
+}*/
+//int main()
+//{
+//    int i=0,j=0;
+//    for(i=1;i<=9;++i)
+//    {
+//        for(j=1;j<=i;++j)
+//        {
+//            printf("%d*%d=%d\t",i,j,i*j);
+//        }
+//        printf("\n");
+//    }
+//
+//    return 0;
+//}
