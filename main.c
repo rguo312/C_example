@@ -136,7 +136,11 @@
     return 0;
 
 */
+<<<<<<< HEAD
 int main()
+=======
+/*int main()
+>>>>>>> Initial commit
 {
     int a,b;
     printf("请输入两个数：");
@@ -149,4 +153,61 @@ int main()
     a=a-b;
     printf("交换后a=%d,b=%d\n",a,b);
     return 0;
+<<<<<<< HEAD
 }
+=======
+}*/
+/*int main()
+{
+    int number;
+    printf("请输入一个数：");
+    scanf("%d",&number);
+    if(number % 2 == 0)
+    {
+        printf("%d是偶数",number);
+    }
+    else
+    {
+        printf("%d是奇数",number);
+
+    }
+    return 0;
+}*/
+
+/*int main()
+{
+    int i,j;
+    printf("请输入一个范围：");
+    scanf("%d-%d",&i,&j);
+
+//    printf("此范围内偶数有");
+    for(;i <= j;i++)
+    {
+        if(i%2==0)
+        {
+            printf("此范围内偶数有");
+            printf("%d\n",i);
+        }
+
+        else
+        {
+
+            printf("此范围内奇数有：");
+            int a =i;
+            printf("%d\n",a);
+        }
+    }
+
+//    printf("此范围内奇数有：");
+//    for(i;i <= j;i++){
+//        if(i%2==1)
+//        {
+//            printf("%d\n",i);
+//        }
+//    }
+
+
+
+    return 0;
+}*/
+>>>>>>> Initial commit
